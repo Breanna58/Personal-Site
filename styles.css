@@ -1,0 +1,87 @@
+git add.
+
+
+body {
+
+  background-color: rgb(181, 124, 202);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+border: 5px solid black;
+margin:auto
+padding: 20px
+
+}
+
+.header {
+
+text-align: center;
+font-size: 30px;
+background: 1abc9c;
+
+}
+
+.tab-cont {
+
+
+  background-color: rgb(244, 237, 246);
+}
+
+
+.tab-cont {
+  display: none; /* Hide all tabs by default */
+}
+
+.tab-cont.active {
+  display: block; /* Show the active tab */
+}
+
+.tab-btn.active {
+  background-color: #754b6e; /* style for active tab button */
+}
+
+ [data-tab-content] {
+  display: none;
+
+ }
+
+.active[data-tab-content] {
+
+display: block;
+font-style: normal;
+
+}
+
+#tab1 {
+align-items: center;
+text-align: center;
+border: 1px; solid #000
+padding:10px
+font-display: center;
+background-color: rgb(199, 152, 194);
+border-end-end-radius: ;
+box-sizing: border-box; 
+}
+
+
+#tab2 {
+  text-align: center;
+  border-color: rgb(0, 0, 0)
+  a;
+font-display: center;
+background-color: rgb(199, 152, 194);
+border-end-end-radius: ;
+
+}
+
+
+#tab3 {
+text-align: center;
+border-color: rgb(0, 0, 0)
+  a;
+font-display: center;
+background-color: rgb(199, 152, 194);
+border-end-end-radius: ;
+}
