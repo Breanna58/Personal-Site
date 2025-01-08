@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer="" src="/javascript.js"></script>
+    <title>Submission Sucessful</title>
+</head>
+<body>
+    <h1 id="successMessage">Success!</h1>
+
+  <script>
+    // Extract query parameters from the URL
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get('name');
+    const email = params.get('email');
+
+    // Display a personalized success message
+    if (name && email) {
+      document.getElementById('successMessage').textContent = `Thank you, ${name}! Your email (${email}) has been submitted successfully.`;
+    }
+  </script>
+   
+</body>
+</html>
