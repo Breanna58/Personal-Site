@@ -21,6 +21,7 @@
         <button class="tab-btn" data-tab="tab1">HOME</button>
         <button class="tab-btn" data-tab="tab2">ABOUT</button>
         <button class="tab-btn" data-tab="tab3">PORTFOLIO</button>
+        <button class="tab-btn" data-tab="tab4">CONTACT</button>
 
         <!-- Tab content -->
         <div class="tab-cont" id="tab1"> <h1>Developer, Manager</h1>
@@ -91,12 +92,25 @@ width="300">
     </div>
 
 
-       
+    <div class="container" id="tab4" style="display:none;">
       
+        <form id="myForm">
+            <br><br>
+            <div><label for="name">Name:</label></div>
+           <div> <input type="text" id="name" name="name" required></div>
+            <br><br>
+            <div><label for="email">Email:</label></div>
+            <br><br>
+            <div><input type="email" id="email" name="email" required></div>
+            <br><br>
+            <button type="submit">Submit</button>
+          </form>
 
 
 
-</div>
+    </div>
+
+
 
 </body>
 </html>
